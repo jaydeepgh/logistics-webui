@@ -1,0 +1,48 @@
+@import "~styles/base/colors";
+
+.header {
+  width: 100%;
+  text-align: center;
+  min-height: 500px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(43, 51, 61);
+
+  & h1 {
+    padding: 0 2rem;
+    position: relative;
+    color: $alternateTextColor;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 9rem;
+    z-index: 10;
+  }
+}
+
+.toolbar {
+  background: transparent;
+}
+
+.title {
+  color: $alternateTextColor;
+  font-weight: 600;
+}
+
+.topLink {
+  position: relative;
+  z-index: 20;
+
+  .text {
+    color: $alternateTextColor;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+  }
+}
+
+.github {
+  color: $primary3Color;
+
+  &:hover {
+    color: $alternateTextColor;
+  }
+}

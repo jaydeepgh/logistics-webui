@@ -1,0 +1,58 @@
+@import "~styles/base/colors";
+
+.logisticsWizard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+  overflow: hidden;
+  padding: 0 2rem;
+
+  & h1 {
+    color: $primary1Color;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  & p {
+    font-weight: 300;
+  }
+
+  section {
+    margin-bottom: 6rem;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5rem 0;
+
+    section {
+      margin-bottom: 11rem;
+      flex-basis: 40%;
+    }
+  }
+
+}
+
+.logisticsWizard:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 150%;
+  height: 200%;
+  background-color: $primary1Color;
+  transform: rotate(-12deg);
+  z-index: -10;
+}
+
+.button {
+  border: 1px solid $primary1Color;
+}

@@ -1,0 +1,24 @@
+$navColor: #047CC0;
+$primary1Color: #047CC0;
+$primary2Color: rgba(72, 85, 102, 1);
+$primary3Color: #E7F4F6;
+$accent1Color: #73A22C;
+$alternateTextColor: rgba(255, 255, 255, 1);
+$borderColor: rgba(218, 221, 224, 1);
+$textColor: $primary2Color;
+$backgroundColor: rgba(239, 242, 245, 1);
+$map1Primary: #DB7C00;
+$map1Accent: #FAF1E8;
+$map2Primary: #749C68;
+$map2Accent: #F4F9F2;
+$map3Primary: #9320A2;
+$map3Accent: #F6ECF5;
+
+:export { navColor: $navColor; }
+:export { primary1Color: $primary1Color; }
+:export { primary2Color: $primary2Color; }
+:export { primary3Color: $primary3Color; }
+:export { accent1Color: $accent1Color; }
+:export { alternateTextColor: $alternateTextColor; }
+:export { borderColor: $borderColor; }
+:export { textColor: $textColor; }

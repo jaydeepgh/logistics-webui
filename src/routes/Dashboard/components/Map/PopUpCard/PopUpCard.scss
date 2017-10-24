@@ -1,0 +1,175 @@
+@import '~styles/base/colors';
+
+.wrapper {
+  background-color: white;
+  border: 1px solid $borderColor;
+  width: 360px;
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  bottom: 24px;
+  color: $textColor;
+  font-size: 13px;
+  z-index: 9999;
+  overflow: auto;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .2);
+}
+
+.title {
+  font-size: 14px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.distributionCenter {
+  .title {
+    background-color: $map1Primary;
+    color: #FFFFFF;
+  }
+}
+.retailer {
+  .title {
+    background-color: $map2Primary;
+    color: #FFFFFF;
+  }
+}
+.shipment {
+  .title {
+    background-color: $map3Primary;
+    color: #FFFFFF;
+  }
+}
+
+.storm {
+  .title {
+    background-color: $primary1Color;
+    color: #FFFFFF;
+  }
+}
+
+.closeIcon {
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+
+// ------------------------------------
+// Contents
+// ------------------------------------
+
+.contentContainer {
+  padding: 0 1rem;
+}
+
+.subtitle {
+  color: $primary2Color;
+  font-size: 14px;
+  margin-top: 1rem;
+  margin-bottom: 0.05rem;
+}
+
+.subtitle2 {
+  color: $primary1Color;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.05rem;
+}
+
+h2 {
+  color: $primary1Color;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+hr {
+  margin: .5rem 0;
+}
+h4 {
+  font-weight: 600;
+  letter-spacing: .5px;
+  font-size: 14px;
+  font-color: #0C7483;
+}
+
+small {
+  color: $primary1Color;
+}
+.header {
+  padding: 0 1rem;
+}
+
+.headerLine {
+  margin-bottom: 1rem;
+}
+
+.icon {
+  font-size: 16px;
+  font-weight: normal;
+  margin-right: 1rem;
+  width: 16px;
+}
+
+.tableHeader {
+
+}
+
+.padLeft {
+  padding-left: 1rem;
+}
+
+.iconTitleContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.shipmentDialog {
+  color: $primary1Color;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.shipmentTitle {
+  border: 1px solid $borderColor;
+  border-bottom: none;
+  padding: .5rem;
+}
+
+.shipmentDialogActionContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.shipmentDialogAction {
+  border: 1px solid $borderColor;
+  width:100%;
+  cursor: pointer;
+}
+
+.weatherIcon {
+  width: 32px;
+  margin-top:5px;
+  margin-right:10px;
+  vertical-align: middle;
+}
+
+.shipmentRecommendationList {
+  max-height: 300px;
+  overflow-y: auto;
+  line-height: 1rem;
+}

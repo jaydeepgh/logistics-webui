@@ -1,0 +1,36 @@
+@import '~styles/base/colors';
+
+.wrapper {
+  flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.cardSection {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: .5rem;
+  border-bottom: 1px solid $borderColor;
+}
+
+.cardSection > div {
+  flex: 1;
+}
+
+.viewMode {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+}
+
+.viewMode > div {
+  text-align: center;
+  align-self: center;
+  flex: 1;
+}
+
+.shipmentsTable {
+  margin: 1rem;
+}

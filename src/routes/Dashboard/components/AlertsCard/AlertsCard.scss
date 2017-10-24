@@ -1,0 +1,33 @@
+@import '~styles/base/colors';
+
+.wrapper {
+  border: 1px solid $map2Primary;
+  background-color: $map2Accent;
+  color: $map2Primary;
+  font-size: 14px;
+  width: 300px;
+  position: absolute;
+  top: 25px;
+  padding: 10px;
+  // left: 50px
+  right: 10px;
+}
+
+.title {
+
+}
+
+.content {
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.closeIcon {
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.hidden { display:none; }
